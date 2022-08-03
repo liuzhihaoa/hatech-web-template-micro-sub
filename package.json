@@ -1,0 +1,53 @@
+{
+  "name": "hatech-web-template-project-micro-sub",
+  "version": "0.0.2",
+  "description": "微应用",
+  "private": true,
+  "scripts": {
+    "dev": "vue-cli-service serve",
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "@hatech/icon": "0.0.1",
+    "@hatech/table-page": "^0.0.1",
+    "@hatech/theme": "^0.0.2",
+    "hatech-element-ui": "^2.15.3",
+    "hatech-web-component-dialog": "^0.0.2",
+    "hatech-web-core": "0.0.51",
+    "hatech-web-utils": "^0.1.3"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^3.11.0",
+    "@vue/cli-plugin-eslint": "^3.11.0",
+    "@vue/cli-service": "^3.11.0",
+    "babel-eslint": "^10.1.0",
+    "copy-webpack-plugin": "^4.6.0",
+    "eslint": "^6.7.2",
+    "eslint-plugin-vue": "^6.2.2",
+    "node-sass": "^4.14.1",
+    "sass-loader": "^10.0.3",
+    "svg-sprite-loader": "^5.0.0",
+    "vue-template-compiler": "^2.6.11"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ],
+    "parserOptions": {
+      "parser": "babel-eslint"
+    },
+    "rules": {}
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+}
